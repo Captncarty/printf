@@ -1,2 +1,2 @@
 # printf
-Exploring standard functions
+Re-creating a formated output, printf utility formats and prints its arguments
