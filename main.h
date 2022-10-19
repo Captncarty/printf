@@ -32,7 +32,6 @@ int rot13(va_list);
 int unsigned_integer(va_list);
 int print_octal(va_list list);
 int print_hex(va_list list);
-int get_width(const char *format, int *i, va_list list)
 int print_heX(va_list list);
 
 /* Helpers */
