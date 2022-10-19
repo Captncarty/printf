@@ -4,14 +4,15 @@
  * parser - Receives the main string and all the necessary parameters to
  * print a formated string.
  * @format: A string containing all the desired characters.
- * @f_list: A list of all the posible functions.
+ * @p: A list of all the posible functions.
  * @p: structure
  * @arg_list: A list containing all the argumentents passed to the program.
  * Return: A total count of the characters printed.
  */
 int parser(const char *format, print_t p[], va_list arg_list)
 {
-	int i, j, r_val, printed_chars;
+	int i, j, r_val;
+	int printed_chars;
 
 	printed_chars = 0;
 	for (i = 0; format[i] != '\0'; i++)/* Iterates through the main str*/
